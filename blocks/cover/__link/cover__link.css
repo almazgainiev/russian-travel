@@ -1,0 +1,23 @@
+.cover__link {
+  background-color: rgba(42, 44, 47, .3);
+  width: 100%;
+  margin: 0 auto;
+  aspect-ratio: 320 / 200;
+  display: grid;
+  text-decoration: none;
+  row-gap: 16px;
+  color: #fff;
+  transition: background-color .4s;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__link {
+    row-gap: 32px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__link:hover {
+    background-color: rgba(42, 44, 47, .8)
+  }
+}

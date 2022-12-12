@@ -1,0 +1,25 @@
+.footer {
+  padding-top: 64px;
+  max-width: calc(100% - 134px);
+  padding-left: 16px;
+  padding-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    margin: 0 auto;
+    max-width: calc(100% - (2*24px));
+    padding-top: 88px;
+    padding-left: 0;
+    max-height: 18px;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    max-width: calc(100% - (2*48px));
+    padding-top: 92px;
+  }
+}

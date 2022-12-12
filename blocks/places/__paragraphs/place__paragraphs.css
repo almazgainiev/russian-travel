@@ -1,0 +1,15 @@
+.places__paragraphs {
+  max-width: calc(100% - 32px);
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+}
+
+@media screen and (min-width: 768px) {
+  .places__paragraphs {
+    max-width: 100%;
+  }
+
+}
