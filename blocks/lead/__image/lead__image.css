@@ -1,19 +1,11 @@
 .lead__image {
   width: 100%;
   padding-top: 40px;
+  object-fit: cover;
 }
-@media screen and (min-width: 768) {
+
+@media screen and (min-width: 768px) {
   .lead__image {
-    padding-top: 56px;
-  }
-}
-@media screen and (min-width: 768) {
-  .lead__image {
-    padding-top: 56px;
-  }
-}
-@media screen and (min-width: 768) {
-  .lead__image {
-    padding-top: 64px;
+    padding-top: 55px;
   }
 }

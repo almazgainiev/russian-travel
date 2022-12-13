@@ -1,7 +1,7 @@
 .places__website {
   max-width: calc(100% - 32px);
   margin: 0 auto;
-  padding-top: 32px;
+  padding-top: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -9,6 +9,7 @@
     max-width: 100%;
     margin: 0;
     padding: 0;
-  }
+    align-self: flex-end;
+    }
 
 }

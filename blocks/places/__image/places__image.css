@@ -1,7 +1,8 @@
 .places__image {
   max-width: 100%;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 768px) {
