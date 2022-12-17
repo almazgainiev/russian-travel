@@ -1,25 +1,24 @@
 .lead {
   width: 100%;
-  padding-top: 48px;
+  padding-top: 38px;
   margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .lead {
-    width: 100%;
+    padding-top: 40px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .lead {
     width: calc(100% - (2*48px));
-    padding-top: 44px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead {
     width: calc(100% - (2*148px));
-    padding-top: 60px;
+    padding-top: 48px;
   }
 }

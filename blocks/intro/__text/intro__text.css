@@ -1,15 +1,8 @@
 .intro__text {
-  max-height: 520px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 163%;
-  margin: 0;
-  padding-top: 40px;
+  line-height: 26.08px;
+  margin: 40px auto 0;
 }
 
-@media screen and (min-width: 768px) {
-  .intro__text {
-    max-height: 208px;
-  }
-}
