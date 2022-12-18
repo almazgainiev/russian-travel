@@ -15,7 +15,7 @@
   z-index: 1;
 }
 
-.cover__link:before {
+.cover__link::before {
   content: '';
   position: absolute;
   top: 0;
@@ -27,16 +27,8 @@
   z-index: -1;
 }
 
-.cover__link:hover::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(42, 44, 47, 1);
+.cover__link:hover::before {
   opacity: .8;
-  z-index: -1;
 }
 
 @media screen and (min-width: 768px) {
